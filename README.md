@@ -134,7 +134,7 @@ For example, a 1500x1500 pixels image can be split into 512x512 pixels 9 tiles a
 <b>1500x1500 pixels image</b><br>
 <table>
 <tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/10001.jpg" witdh="606" height="606"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/10001.jpg" witdh="630" height="630"></td>
 </tr>
 </table>
 <br>
