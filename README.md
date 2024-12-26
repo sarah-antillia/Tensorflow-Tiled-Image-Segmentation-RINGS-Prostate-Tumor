@@ -126,9 +126,37 @@ We excluded all black (empty) masks and their corresponding images to generate o
     └─MANUAL TUMOR
 </pre>
 On the derivation of this tiled dataset, please refer to the following Python scripts.<br>
-<li><a href="./generator/TrainTumorImageMaskDatasetGenerator.py">TrainTumorImageMaskDatasetGenerator.py</li>
-<li><a href="./generator/TiledImageMaskDatasetGenerator.py">TiledImageMaskDatasetGenerator.py</li>
-<li><a href="./generator/split_tiled_master.py">split_tiled_master.py</li>
+<li><a href="./generator/TrainTumorImageMaskDatasetGenerator.py">TrainTumorImageMaskDatasetGenerator.py</a></li>
+<li><a href="./generator/TiledImageMaskDatasetGenerator.py">TiledImageMaskDatasetGenerator.py</a></li>
+<li><a href="./generator/split_tiled_master.py">split_tiled_master.py</a></li>
+<br>
+For example, a 1500x1500 pixels image can be split into 512x512 pixels 9 tiles as shown below.<br>
+<b>1500x1500 pixels image</b><br>
+<table>
+<tr>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/10001.jpg" witdh="606" height="606"></td>
+</tr>
+</table>
+<br>
+<b>512x512 pixels tiledly splitted images</b><br>
+<table>
+<tr>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_0x0.jpg" witdh="200" height="200"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_0x1.jpg" witdh="200" height="200"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_0x2.jpg" witdh="200" height="200"></td>
+</tr>
+<tr>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_1x0.jpg" witdh="200" height="200"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_1x1.jpg" witdh="200" height="200"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_1x2.jpg" witdh="200" height="200"></td>
+</tr>
+<tr>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_2x0.jpg" witdh="200" height="200"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_2x1.jpg" witdh="200" height="200"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Prostate-Tumor/asset/tiles/10001_2x2.jpg" witdh="200" height="200"></td>
+</tr>
+
+</table>
 
 <br>
 <b>Tiled-Prostate-Tumor Statistics</b><br>
