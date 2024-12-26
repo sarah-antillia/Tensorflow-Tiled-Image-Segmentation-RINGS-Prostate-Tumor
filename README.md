@@ -231,7 +231,7 @@ num_infer_images         = 1
 </pre>
 
 By using this callback, on every epoch_change, the inference procedure can be called
- for 6 images in <b>mini_test</b> folder. This will help you confirm how the predicted mask changes 
+ for 1 image in <b>mini_test</b> folder. This will help you confirm how the predicted mask changes 
  at each epoch during your training process.<br> <br> 
 
 <b>Epoch_change_inference output</b><br>
